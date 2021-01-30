@@ -6,7 +6,7 @@
   "scripts": {
     "prod": "NODE_ENV=production node server",
     "start": "node server.js",
-    "start:dev": "nodemon --watch"
+    "start:dev": "nodemon server.js --watch"
   },
   "author": "Brad Traversy",
   "license": "MIT",
