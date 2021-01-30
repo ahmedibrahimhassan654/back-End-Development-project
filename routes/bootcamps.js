@@ -47,6 +47,9 @@ router
     // protect, authorize('publisher', 'admin'), 
     updateBootcamp)
     
-  .delete(protect, authorize('publisher', 'admin'), deleteBootcamp);
+  .delete(
+    //protect, 
+    //authorize('publisher', 'admin'),
+     deleteBootcamp);
 
 module.exports = router;
