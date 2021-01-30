@@ -48,7 +48,7 @@ router
     updateBootcamp)
     
   .delete(
-    //protect, 
+    // protect, 
     //authorize('publisher', 'admin'),
      deleteBootcamp);
 
